@@ -1,0 +1,463 @@
+@font-face {
+  font-family: 'Museo';
+  font-weight: 500;
+  src: url('../fonts/Museo-500.otf');
+}
+@font-face {
+  font-family: 'Museo';
+  font-weight: 700;
+  src: url('../fonts/Museo-700.otf');
+}
+
+html {
+  font-size: 16px;
+}
+
+/* General */
+body {
+  background-color:#fff2da;
+  font-family: 'Museo';
+  color: #0066b3;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Museo';
+font-weight: 500;
+font-style: normal;
+color: #0066b3;
+text-rendering: optimizeLegibility;
+margin-top: 0.2rem;
+margin-bottom: 0.5rem;
+line-height: 1.4;
+}
+
+p {
+  font-family: 'Museo';
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.2em;
+  cursor: default;
+}
+
+.contain-to-grid {
+  /*padding:20px 0 0 30px;*/
+  background-color: #0066b3;
+}
+
+.top-bar {
+  background: #0066b3;
+  height: 65px;
+}
+
+.top-bar.expanded .title-area {
+  background: #0066b3;
+}
+
+.top-bar-section ul {
+  background-color: #0066b3;
+  margin-top: 10px;
+}
+
+.top-bar-section ul.dropdown {
+  margin-top: 0px;
+}
+
+.top-bar .name {
+  height: 65px;
+}
+
+.top-bar-section ul li a{
+  font-size: 1em;
+  font-family: 'Museo';
+}
+
+.top-bar-section li a:not(.button) {
+  background: #0066b3;
+}
+
+.top-bar-section li a:not(.button):hover {
+  background: #469EE8;
+}
+
+.top-bar-section ul li:hover > a {
+  background: #469EE8;
+}
+
+.topbar-wrapper {
+  position: relative;
+  height: 100%;
+  max-width: 1008px;
+  margin: 0 auto;
+}
+
+
+.title-bar{
+  background-color:#fecb6a;
+}
+
+.title-bar h1{
+  font-family: 'Museo';
+  font-weight: bold;
+  color: #0066b3;
+  font-size: 36px;
+}
+
+.title-bar h2{
+  font-family: 'Lobster';
+  font-weight: normal;
+  color: #0066b3;
+  font-size: 30px;
+}
+
+.button {
+  background-color: #f04e23;
+}
+
+button:hover, button:focus, .button:hover, .button:focus {
+  background-color: #E8230C;
+}
+
+.facebook-hero {
+  background-color: #ffffff;
+  border-top: solid 1px #a1a1a1;
+  border-bottom: solid 1px #a1a1a1;
+}
+
+.facebook-button {
+  background-color: #468dc8;
+}
+
+.facebook-button:hover, .facebook-button:focus {
+  background-color: #469EE8;
+}
+
+/* Images */
+.circular {
+  width: 140px;
+  height: 140px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  /*background: url(http://link-to-your/image.jpg) no-repeat;*/
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+/* Prices */
+
+.price {
+  background-color:rgba(0,0,0,0.5);
+}
+
+.price h2{
+  font-family: 'Museo';
+  color: #80bdff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  opacity:2.2;
+  filter:alpha(opacity=220); /* For IE8 and earlier */
+}
+
+.price p, .price ul li{
+  font-family: 'Museo';
+  color: #80bdff;
+  font-size: 18px;
+  opacity:2.2;
+  filter:alpha(opacity=220); /* For IE8 and earlier */
+  /*margin-left:3em;*/
+}
+
+/* Slider */
+.slide-home{
+  /*height:600px;*/
+}
+
+#slide1 img {position:absolute; z-index: -1;}
+
+.slide img {
+  position:absolute; z-index: -1;
+}
+
+.orbit-bullets-container {
+  margin-top: -110px;
+}
+
+/* Danse moderne */
+.dance-stage{
+  margin-top: 30px;
+}
+
+.dance-stage{
+  margin-top: 30px;
+}
+
+.dance-stage{
+  margin-top: 30px;
+}
+
+/* Contact */
+body#contact{
+  background: url(../img/bg-dance.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contact-form {
+  height:450px;
+  margin-top:30px;
+}
+
+.contact-form form label {
+font-size: 1.5rem;
+color: #80bdff;
+cursor: pointer;
+display: block;
+font-weight: normal;
+margin-bottom: 0.5rem;
+}
+
+.contact-form form input, .contact-form form textarea{
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  cursor: default;
+}
+
+.contact-form p.address {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.2em;
+  cursor: default;
+  font-size:  1.2em;
+  text-align:center;
+  color: #ffffff;
+}
+
+/* Remise en forme */
+body#aerobic{
+  background: url(../img/bg-aerobic.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Danse moderne */
+body#modern{
+  background: url(../img/bg-modern.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Danses de salon- stages */
+.dance-col h3 {
+  font-size: 24px;
+  color: #fecb6a;
+}
+
+/* Danses de salon - Démonstations */
+.dance-demo{
+  height: 650px;
+  margin-top: 30px;
+}
+
+/* Danses de salon */
+
+body#dance{
+  background: url(../img/bg-dance.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body#salon{
+  background: url(../img/bg-salon.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+.dance-col{
+  font-family: 'Museo';
+  font-size: 18px;
+  color: #f1f1f1;
+  text-align: left;
+}
+
+.dance-col h2 {
+  font-size: 30px;
+  color: #80bdff;
+}
+
+/* home */
+
+.heroCourseList {
+  font-family: 'Museo';
+  color: #0066b3;
+  text-align: center;
+  font-size: 14px;
+}
+
+.heroCourseList h2{
+  font-family: 'Museo';
+  color: #0066b3;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.heroCourseList img {
+  border: solid 2px #fecb6a;
+}
+
+.heroCourseList p {
+  font-family: 'Museo';
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.col-index{
+  margin-top:30px;
+  text-align:center;
+}
+
+.col-header-img{
+  width:140px;
+  margin:0 auto;
+}
+
+.welcome {
+  padding-top:30px;
+  font-family: 'Museo';
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.welcome h1 {
+  font-family: 'Museo';
+  color: #ffffff;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.welcome p {
+  line-height: 1.3em;
+}
+
+/* Footer */
+#footer {
+  padding-top:30px;
+  background-color: #ffffff;
+  font-family: 'Museo';
+  color: #a1a1a1;
+  font-size: 16px;
+  height:400px;
+}
+
+#footer .links a{
+  font-family: 'Museo';
+  font-size: 16px;
+}
+
+/* table */
+table {
+  background-color:rgba(255,255,255,0.5);
+  border-collapse:collapse;
+  border:none;
+}
+
+table thead {
+  background:none;
+}
+
+table tr.even, table tr.alt, table tr:nth-of-type(even) {
+  background: none;
+}
+
+table thead tr:nth-child(odd) {
+  background:none;
+}
+
+tr:nth-child(odd) {
+  background-color:rgba(255,255,255,0.3);
+}
+
+th {
+  color: #ffffff !important;
+  font-family: 'Museo';
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+td {
+  color: #ffffff !important;
+  font-family: 'Museo';
+  font-size: 14px;
+  width:25%;
+}
+
+@media screen and (max-width: 980px) {
+  .top-bar .name h1 img {
+    margin-top:15px;
+    height: 45px;
+  }
+  .top-bar-section ul li a {
+    font-size: 0.8em;
+  }
+
+  /* Home */
+  .welcome h1 {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  .col-index p{
+    min-height:140px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .top-bar .name h1 img {
+    height: 30px;
+    margin-top:15px;
+  }
+  .top-bar-section ul li a {
+    font-size: 0.8em;
+  }
+
+  .col-index p{
+    min-height:180px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .top-bar .name h1 img {
+    margin-top:15px;
+    height: 35px;
+  }
+  .top-bar-section ul li a {
+    font-size: 0.8em;
+  }
+
+  /* Home */
+  .welcome h1 {
+    font-size: 1em;
+    font-weight: bold;
+  }
+}
