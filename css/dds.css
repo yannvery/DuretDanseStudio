@@ -179,6 +179,18 @@ button:hover, button:focus, .button:hover, .button:focus {
   text-align:center;
 }
 
+.price ul  { /* also works with ol */
+    width: 100%; /* or your desired width */
+    text-align: center; /* this will center the list items */
+    margin-left:0;
+}
+.price ul li {
+    display: inline-block; /* the key bit */
+    *display: inline; /* IE7 hack */
+    *zoom: 1; /* IE7 hack */
+    margin-right:10px;
+}
+
 /* Slider */
 
 #slide1 img {position:absolute; z-index: -1;}
@@ -372,8 +384,8 @@ body#salon{
   font-size: 1em;
 }
 
-#footer ul, .price ul {display: table; margin: 0 auto;}
-#footer ul li, .price ul li {display: table-cell;}
+#footer ul {display: table; margin: 0 auto;}
+#footer ul li {display: table-cell;}
 
 #footer .footer-links {
   right:10px;
