@@ -6,6 +6,7 @@
   <title>DanseDuretStudio | Bienvenue</title>
   <link rel="stylesheet" href="css/foundation.css" />
   <link rel="stylesheet" href="css/dds.css" />
+
   <script src="js/modernizr.js"></script>
 </head>
 <body>
@@ -35,26 +36,44 @@
     </nav>
   </div>
 
-  <div class="row">
+  <div class="row hide-for-small-only">
     <ul class="orbit" data-orbit>
-      <li class="slide">
+      <li id="slide1">
         <img src="img/orbit/sophie.png" alt="slide 1" />
         <div class="large-8 large-offset-4 medium-8 medium-offset-4 columns welcome">
-          <h1 class="hide-for-small-only">Venez découvrir les activités du DuretDanseStudio</h1>
+          <h1>Venez découvrir les activités du DuretDanseStudio</h1>
           <p>De la valse au rock, la danse moderne pour les grands <br>
             comme les petits, la gym aréobic, le stretching, <br>
-            la zumba et bien d’autres</p>
-            <a href="#" class="button radius">Contactez-nous</a>
-          </div>
-        </li>
-        <li>
-          <img src="img/orbit/children.png" alt="slide 2" />
-          <div class="orbit-caption">
-            Caption Two.
-          </div>
-        </li>
-      </ul>
-    </div>
+            la zumba et bien d’autres
+          </p>
+          <a href="#" class="button radius">Contactez-nous</a>
+        </div>
+      </li>
+      <li>
+        <img src="img/orbit/children.png" alt="slide 2" />
+      </li>
+    </ul>
+  </div>
+
+  <div class="row show-for-small-only">
+  <ul class="orbit show-for-small-only" data-orbit>
+    <li>
+      <img src="img/orbit/sophie.png" alt="slide 1" />
+    </li>
+    <li>
+      <img src="img/orbit/children.png" alt="slide 2" />
+    </li>
+  </ul>
+  </div>
+
+  <div class="large-8 large-offset-4 medium-8 medium-offset-4 small-12 columns welcome show-for-small-only">
+    <h1>Venez découvrir les activités du DuretDanseStudio</h1>
+    <p>De la valse au rock, la danse moderne pour les grands <br>
+      comme les petits, la gym aréobic, le stretching, <br>
+      la zumba et bien d’autres
+    </p>
+    <a href="#" class="button radius">Contactez-nous</a>
+  </div>
 
   <div class="row heroCourseList">
     <div class="col-index large-4 medium-4 medium-offset-0 small-8 small-offset-2 columns">
@@ -100,17 +119,17 @@
 
     <div id="footer">
       <div class="row">
-      <div class="large-3 large-centered medium-3 medium-centerd small-3 small-centered columns">
+        <div class="large-6 large-offset-3 medium-6 medium-offset-3 small-6 small-offset-3 columns footer-links">
           <ul class="inline-list links">
-            <li><a href="#">A propos</a></li>
-            <li><a href="#">Liens</a></li>
-            <li><a href="#">Contact</a></li>
-
+            <li><a href="a-propos.html">A propos</a></li>
+            <li><a href="liens.html">Liens</a></li>
+            <li><a href="contactez-nous.html">Contact</a></li>
           </ul>
         </div>
       </div>
+
       <div class="row">
-        <div class="col-index large-4 large-centered medium-4 medium-centerd small-4 small-centered columns">
+        <div class="small-12 address columns">
           <p>DuretDanseStudio<br>
           18 rue Nicolas Leclerc<br>
           78250 Meulan<br>
