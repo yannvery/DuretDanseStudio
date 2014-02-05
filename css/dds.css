@@ -84,6 +84,10 @@ p {
   background: #469EE8;
 }
 
+.top-bar.expanded .toggle-topbar a {
+  color: #ffffff;
+}
+
 .topbar-wrapper {
   position: relative;
   height: 100%;
@@ -145,6 +149,10 @@ button:hover, button:focus, .button:hover, .button:focus {
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
+.first-row {
+  margin-top:30px;
+}
+
 /* Prices */
 
 .price {
@@ -168,22 +176,12 @@ button:hover, button:focus, .button:hover, .button:focus {
   opacity:2.2;
   filter:alpha(opacity=220); /* For IE8 and earlier */
   /*margin-left:3em;*/
+  text-align:center;
 }
 
 /* Slider */
-.slide-home{
-  /*height:600px;*/
-}
 
 #slide1 img {position:absolute; z-index: -1;}
-
-.slide img {
-  position:absolute; z-index: -1;
-}
-
-.orbit-bullets-container {
-  margin-top: -110px;
-}
 
 /* Danse moderne */
 .dance-stage{
@@ -371,7 +369,18 @@ body#salon{
 
 #footer .links a{
   font-family: 'Museo';
-  font-size: 16px;
+  font-size: 1em;
+}
+
+#footer ul, .price ul {display: table; margin: 0 auto;}
+#footer ul li, .price ul li {display: table-cell;}
+
+#footer .footer-links {
+  right:10px;
+}
+
+#footer .address p {
+  text-align:center;
 }
 
 /* table */
@@ -397,12 +406,12 @@ tr:nth-child(odd) {
   background-color:rgba(255,255,255,0.3);
 }
 
-th {
+table thead tr th {
   color: #ffffff !important;
   font-family: 'Museo';
-  text-align: center;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 0,875em;
+  padding-top:30px;
 }
 
 td {
@@ -412,7 +421,11 @@ td {
   width:25%;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 960px) {
+  .title-bar h1, .title-bar h2{
+    font-size: 1.5em;
+  }
+
   .top-bar .name h1 img {
     margin-top:15px;
     height: 45px;
@@ -432,7 +445,11 @@ td {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
+  .title-bar h1, .title-bar h2{
+    font-size: 1.2em;
+  }
+
   .top-bar .name h1 img {
     height: 30px;
     margin-top:15px;
@@ -444,6 +461,11 @@ td {
   .col-index p{
     min-height:180px;
   }
+
+  #footer .links a{
+    font-size: 0.9em;
+  }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -455,9 +477,36 @@ td {
     font-size: 0.8em;
   }
 
+  .title-bar h2{
+    font-size: 1.5em;
+  }
+
   /* Home */
   .welcome h1 {
     font-size: 1em;
     font-weight: bold;
+    color: #F07F33;
   }
+
+  .welcome {
+    padding-top:0px;
+    font-family: 'Museo';
+    font-size: 1.5em;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .welcome p {
+    line-height: 1.2em;
+    color: #0066B3;
+  }
+
+  .col-index p{
+    min-height:0px;
+  }
+
+  #footer ul {
+    text-align:center;
+  }
+
 }
