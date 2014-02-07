@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DanseDuretStudio | Bienvenue</title>
+  <title>DuretDanseStudio | Bienvenue</title>
   <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/foundation.css" />
   <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
@@ -41,18 +41,24 @@
   <div class="row hide-for-small-only">
     <ul class="orbit" data-orbit>
       <li id="slide1">
-        <img src="img/orbit/sophie.png" alt="slide 1" />
-        <div class="large-8 large-offset-4 medium-8 medium-offset-4 columns welcome">
+        <img src="img/orbit/danse-sophie.jpg" alt="slide 1" />
+        <div class="large-8 large-offset-4 medium-6 medium-offset-6 columns welcome">
           <h1>Venez découvrir les activités du DuretDanseStudio</h1>
-          <p>De la valse au rock, la danse moderne pour les grands <br>
-            comme les petits, la gym aréobic, le stretching, <br>
+          <p>De la valse au rock, la danse moderne pour les grands <br class="hide-for-medium-only">
+            comme les petits, la gym aréobic, le stretching, <br class="hide-for-medium-only">
             la zumba et bien d’autres
           </p>
           <a href="#" class="button radius">Contactez-nous</a>
         </div>
       </li>
       <li>
-        <img src="img/orbit/children.png" alt="slide 2" />
+        <img src="img/orbit/danse-moderne-child.jpg" alt="slide 2" />
+      </li>
+      <li>
+      <img src="img/orbit/danse-de-salon.jpg" alt="slide 3" />
+    </li>
+      <li>
+        <img src="img/orbit/bees.jpg" alt="slide 4" />
       </li>
     </ul>
   </div>
@@ -60,10 +66,16 @@
   <div class="row show-for-small-only">
   <ul class="orbit show-for-small-only" data-orbit>
     <li>
-      <img src="img/orbit/sophie.png" alt="slide 1" />
+      <img src="img/orbit/danse-sophie-center.jpg" alt="slide 1" />
     </li>
     <li>
-      <img src="img/orbit/children.png" alt="slide 2" />
+      <img src="img/orbit/danse-moderne-child.jpg" alt="slide 2" />
+    </li>
+    <li>
+      <img src="img/orbit/danse-de-salon.jpg" alt="slide 3" />
+    </li>
+    <li>
+      <img src="img/orbit/bees.jpg" alt="slide 4" />
     </li>
   </ul>
   </div>
@@ -80,18 +92,19 @@
   <div class="row heroCourseList">
     <div class="col-index large-4 medium-4 medium-offset-0 small-8 small-offset-2 columns">
       <div class="col-header-img">
-        <a class="danse-de-salon.html" href="#">
-          <img class="circular" src="http://lorempixel.com/200/200/">
+        <a href="danse-de-salon.html">
+          <img class="circular" src="img/danse-de-salon-thumb.png">
         </a>
       </div>
       <h2>Danse de Salon</h2>
       <p>Danser seul, c'est bien, à deux c'est mieux.<br/>Retrouvez-vous dans une ambiance décontractée que vous soyez célibataire ou en couple , afin de vous sentir mieux lors de vos soirées dansantes.</p>
       <a href="danse-de-salon.html" class="button radius">En savoir plus</a>
     </div>
+
     <div class="col-index large-4 medium-4 medium-offset-0 small-8 small-offset-2 columns">
       <div class="col-header-img">
-        <a class="" href="#">
-          <img class="circular" src="http://lorempixel.com/200/200/">
+        <a href="danse-moderne.html">
+          <img class="circular" src="img/danse-moderne-thumb.png">
         </a>
       </div>
       <h2>Danse Moderne</h2>
@@ -99,10 +112,11 @@
         Initiation à la danse et découverte de son corps pour les plus petits.<br/>Chorégraphie d’ensemble et coordination pour les plus grands.</p>
         <a href="danse-moderne.html" class="button radius">En savoir plus</a>
       </div>
+
       <div class="col-index large-4 medium-4 medium-offset-0 small-8 small-offset-2 end columns">
         <div class="col-header-img">
-          <a class="danse-moderne.html" href="#">
-            <img class="circular" src="http://lorempixel.com/200/200/">
+          <a href="remise-en-forme.html">
+            <img class="circular" src="img/remise-en-forme-thumb.png">
           </a>
         </div>
         <h2>Remise en forme</h2>
@@ -114,17 +128,17 @@
     <section class="facebook-hero">
       <div class="row">
         <div class="col-index large-4 large-centered medium-4 medium-offset-4 small-6 small-centered columns">
-          <a href="remise-en-forme.html" class="button radius facebook-button">Suivez-nous sur Facebook</a>
+          <a href="contactez-nous.html" class="button radius facebook-button">Suivez-nous sur Facebook</a>
         </div>
       </div>
     </section>
 
     <div id="footer">
       <div class="row">
-        <div class="large-6 large-offset-3 medium-6 medium-offset-3 small-6 small-offset-3 columns footer-links">
+        <div class="large-6 large-offset-3 medium-6 medium-offset-3 small-10 small-offset-1 columns footer-links">
           <ul class="inline-list links">
-            <li><a href="a-propos.html">A propos</a></li>
-            <li><a href="liens.html">Liens</a></li>
+            <li><a href="#">A propos</a></li>
+            <li><a href="#">Liens</a></li>
             <li><a href="contactez-nous.html">Contact</a></li>
           </ul>
         </div>
@@ -146,5 +160,15 @@
     <script>
       $(document).foundation();
     </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-47865009-1', 'duretdansestudio.fr');
+      ga('send', 'pageview');
+
+    </script>
   </body>
-  </html>
+</html>

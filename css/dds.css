@@ -191,19 +191,22 @@ button:hover, button:focus, .button:hover, .button:focus {
     margin-right:10px;
 }
 
+/* Map */
+
+#map_canvas {
+  height: 600px;
+}
+
+.map-col h2 {
+  font-size: 30px;
+  color: #80bdff;
+}
+
 /* Slider */
 
 #slide1 img {position:absolute; z-index: -1;}
 
 /* Danse moderne */
-.dance-stage{
-  margin-top: 30px;
-}
-
-.dance-stage{
-  margin-top: 30px;
-}
-
 .dance-stage{
   margin-top: 30px;
 }
@@ -252,7 +255,7 @@ margin-bottom: 0.5rem;
 
 /* Remise en forme */
 body#aerobic{
-  background: url(../img/bg-aerobic.png) no-repeat center center fixed;
+  background: url(../img/bg-aerobic.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -261,7 +264,7 @@ body#aerobic{
 
 /* Danse moderne */
 body#modern{
-  background: url(../img/bg-modern.png) no-repeat center center fixed;
+  background: url(../img/bg-modern.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -290,6 +293,14 @@ body#dance{
   background-size: cover;
 }
 
+body#stage{
+  background: url(../img/bg-dance.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body#salon{
   background: url(../img/bg-salon.png) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -298,6 +309,17 @@ body#salon{
   background-size: cover;
 }
 
+body#demo{
+  background: url(../img/bg-demo.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#demo .first-row{
+  height:600px;
+}
 
 
 .dance-col{
@@ -455,6 +477,14 @@ td {
   .col-index p{
     min-height:140px;
   }
+
+  #map_canvas {
+    height: 400px;
+  }
+
+  #map_canvas .firstHeading {
+    font-size: 1.5em;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -478,13 +508,25 @@ td {
     font-size: 0.9em;
   }
 
+  #map_canvas {
+    height: 300px;
+  }
+
+  #map_canvas .firstHeading {
+    font-size: 1.5em;
+  }
+
 }
 
 @media screen and (max-width: 640px) {
   .top-bar .name h1 img {
     margin-top:15px;
-    height: 35px;
+    height: auto;
   }
+  .top-bar .name h1 a {
+    width: 65%;
+  }
+
   .top-bar-section ul li a {
     font-size: 0.8em;
   }
@@ -522,3 +564,4 @@ td {
   }
 
 }
+
