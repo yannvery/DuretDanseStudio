@@ -153,6 +153,9 @@ button:hover, button:focus, .button:hover, .button:focus {
   margin-top:30px;
 }
 
+.last-row {
+  margin-bottom:230px;
+}
 /* Prices */
 
 .price {
@@ -255,7 +258,7 @@ margin-bottom: 0.5rem;
 
 /* Remise en forme */
 body#aerobic{
-  background: url(../img/bg-aerobic.jpg) no-repeat center center fixed;
+  background: url(../img/bg-aerobic.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -286,7 +289,7 @@ body#modern{
 /* Danses de salon */
 
 body#dance{
-  background: url(../img/bg-dance.png) no-repeat center center fixed;
+  background: url(../img/bg-dance.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -294,7 +297,7 @@ body#dance{
 }
 
 body#stage{
-  background: url(../img/bg-dance.png) no-repeat center center fixed;
+  background: url(../img/bg-dance.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -302,7 +305,7 @@ body#stage{
 }
 
 body#salon{
-  background: url(../img/bg-salon.png) no-repeat center center fixed;
+  background: url(../img/bg-salon.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -311,6 +314,14 @@ body#salon{
 
 body#demo{
   background: url(../img/bg-demo.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body#links{
+  background: url(../img/bg-links.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -332,6 +343,15 @@ body#demo{
 .dance-col h2 {
   font-size: 30px;
   color: #80bdff;
+}
+
+/* links */
+#links .links a{
+  color: #80BDFF;
+}
+
+#links .links a:hover{
+  color: #CCE5FF;
 }
 
 /* home */
