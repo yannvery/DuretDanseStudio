@@ -258,7 +258,7 @@ margin-bottom: 0.5rem;
 
 /* Remise en forme */
 body#aerobic{
-  background: url(../img/bg-aerobic.png) no-repeat center center fixed;
+  background: url(../img/bg-aerobic.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -405,6 +405,18 @@ body#links{
   text-align: center;
   font-size: 36px;
   font-weight: bold;
+}
+
+.welcome h3, .welcome h4 {
+  font-family: 'Museo';
+  color: #FF5325;
+  text-align: center;
+  font-weight: bold;
+}
+
+.welcome h4 {
+  font-family: 'Museo';
+  color: #ffffff;
 }
 
 .welcome p {
@@ -584,4 +596,3 @@ td {
   }
 
 }
-
