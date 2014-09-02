@@ -399,6 +399,11 @@ body#links{
   text-align: center;
 }
 
+.tract {
+  margin-top: 180px;
+  text-align:right;
+}
+
 .welcome h1 {
   font-family: 'Museo';
   color: #ffffff;
@@ -487,6 +492,12 @@ td {
   width:25%;
 }
 
+@media screen and (max-width: 1025px) {
+  .tract {
+    margin-top: 100px;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .title-bar h1, .title-bar h2{
     font-size: 1.5em;
@@ -502,8 +513,21 @@ td {
 
   /* Home */
   .welcome h1 {
-    font-size: 1.2em;
+    font-size: 0.8em;
     font-weight: bold;
+  }
+
+  .welcome h3 {
+    font-size: 0.8em;
+  }
+
+  .welcome h4 {
+    font-size: 0.8em;
+  }
+
+  .tract {
+    font-size: 1em;
+    margin-top: 150px;
   }
 
   .col-index p{
@@ -522,6 +546,24 @@ td {
 @media screen and (max-width: 768px) {
   .title-bar h1, .title-bar h2{
     font-size: 1.2em;
+  }
+
+  .welcome h1 {
+    font-size: 0.7em;
+    font-weight: bold;
+  }
+
+  .welcome h3 {
+    font-size: 0.7em;
+  }
+
+  .welcome h4 {
+    font-size: 0.7em;
+  }
+
+  .tract {
+    font-size: 1em;
+    margin-top: 0px;
   }
 
   .top-bar .name h1 img {
