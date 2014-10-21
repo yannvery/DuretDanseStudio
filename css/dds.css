@@ -256,6 +256,27 @@ margin-bottom: 0.5rem;
   color: #ffffff;
 }
 
+/* Events */
+
+.event h1 {
+  font-size: 1em;
+  font-weight: bold;
+  color: #F07F33;
+}
+
+.event {
+  padding-top:0px;
+  font-family: 'Museo';
+  font-size: 1.5em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.event p {
+  line-height: 1.2em;
+  color: #0066B3;
+}
+
 /* Remise en forme */
 body#aerobic{
   background: url(../img/bg-aerobic.jpg) no-repeat center center fixed;
@@ -400,7 +421,7 @@ body#links{
 }
 
 .tract {
-  margin-top: 180px;
+  margin-top: 140px;
   text-align:right;
 }
 
